@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/highscores.css">
+</head>
+<body>
+    <div class="container">
+        <div id="highscores" class="flex-center flex-column">
+            <h1 id="finalScore">Leaderboard</h1>
+            <div class="scrollable-leaderboard">
+                <div id="classf">Position Name Points Remarks</div>
+                <ul id="highScoreList" class="leaderboard-list"></ul>
+            </div>            
+            <div class="btn-group">
+                <a href="/" class="btn">Main Menu</a>
+                <button id="resetLeaderboard" class="btn">Reset All Leaderboard</button>
+            </div>
+        </div>
+    </div>
+    <script src="/scripts/highscores.js"></script>
+</body>
+</html>

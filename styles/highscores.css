@@ -1,0 +1,57 @@
+body{
+    color: #0d0d0d;
+}
+
+#highScoreList{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.high-score{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.leaderboard-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.high-score button {
+    cursor: pointer;
+}
+
+.scrollable-leaderboard {
+    max-height: 220px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.scrollable-list {
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+#classf{
+    font-size: 2rem;
+    text-align: left;
+    position: center;
+}
+.delete-button {
+    font-size: 20px;
+    border-radius: 80px;
+    height: 35px;
+    width: 80px;
+    cursor: pointer;
+    color: black;
+    margin-left: 6rem;
+}
+
+.delete-button:hover{
+    opacity: 0.5;
+}
